@@ -18,3 +18,8 @@ env/
 # Ignore all in Output except the installer
 Output/*
 !Output/ContactRemoverSetup.exe
+
+# Excel files & Logs
+*.xls
+*.xlsx
+*로그.txt

@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+build/
+dist/
+*.spec
+
+# VSCode & Envs
+.vscode/
+venv/
+env/
+.env
+
+# MacOS
+.DS_Store
+
+# Ignore all in Output except the installer
+Output/*
+!Output/ContactRemoverSetup.exe

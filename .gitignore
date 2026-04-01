@@ -3,7 +3,7 @@ __pycache__/
 *.pyc
 *.pyo
 build/
-dist/
+# dist/ (Onedir 모드에서는 실행에 필요한 파일들이 있으므로 제외하지 않음)
 *.spec
 
 # VSCode & Envs
@@ -18,6 +18,7 @@ env/
 # Ignore all in Output except the installer
 Output/*
 !Output/ContactRemoverSetup.exe
+!Output/ContactRemoverSetup_V2Pro.exe
 
 # Excel files & Logs
 *.xls
